@@ -1,0 +1,38 @@
+{
+  "name": "artycurate.com",
+  "description": "artycurate.com website, created with Gatsby",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "gatsby develop -o -H $HOSTNAME -p 3000",
+    "cdev": "rm -rf .cache && npm run dev",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "format": "prettier --write \"*.js\" \"src/**/*.js\"",
+    "lint": "eslint ./ --ext .js --ext .jsx"
+  },
+  "dependencies": {
+    "emotion": "^9.2.6",
+    "emotion-server": "^9.2.6",
+    "gatsby": "next",
+    "gatsby-image": "^2.0.0-beta.7",
+    "gatsby-plugin-catch-links": "^2.0.2-beta.4",
+    "gatsby-plugin-emotion": "^2.0.0-beta.3",
+    "gatsby-plugin-netlify": "^2.0.0-beta.4",
+    "gatsby-plugin-nprogress": "^2.0.0-beta.4",
+    "gatsby-plugin-react-helmet": "^3.0.0-beta.4",
+    "gatsby-plugin-sitemap": "^2.0.0-beta.3",
+    "gatsby-transformer-remark": "^2.1.1-beta.4",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-emotion": "^9.2.6",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-artycurate": "^1.3.0",
+    "prettier": "^1.13.7"
+  }
+}
